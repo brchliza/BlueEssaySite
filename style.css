@@ -1,0 +1,268 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+  padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 1135px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+header{
+    background-color: #03a9f4;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header-arrow{
+    width: 10px;
+}
+.header-btn, .how-it-works-btn{
+    color: white;
+    font-size: 16px;
+}
+.sign-in{
+    width: 100px;
+    height: 40px;
+     color: white;
+    font-size: 16px;
+    background-color: #0287c3;
+    border: none;
+    border-radius: 5px;
+}
+ .order{
+   width: 100px;
+    height: 40px;
+     color: white;
+    font-size: 16px;
+    background-color: #f75e2e;
+    border: none;
+    border-radius: 5px;
+ }
+ .burger-button{
+    display: flex;
+    border: none;
+    flex-direction: column;
+    gap: 2px;
+    background: none;
+ }
+ .burger-line{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+ }
+ .header-div{
+    display: flex;
+    justify-content: space-between;
+ }
+ .links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+ }
+.blue-essay-section{
+    background-color: #e6f7fe;
+    background-image: url(./img/img-cloud.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 630px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.blue-essay-title{
+    font-size: 47px;
+    text-align: start;
+}
+.blue-essay-span{
+    color: #03a9f4;
+}
+.blue-essay-line{
+    width: 545px;
+    height: 1px;
+    background-color: #b0bcc2;
+    margin-top: 30px;
+}
+.blue-essay-paragraph{
+    color: #656a70;
+    font-size: 30px;
+    width: 522px;
+    padding-top: 40px;
+}
+.blue-essay-btn{
+    background-color: #f75e2e;
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.blue-essay-div{
+    display: flex;
+    justify-content: space-between;
+}
+.paper-list{
+    width: 1200px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    background-color: #03a9f4;
+    position: absolute;
+    justify-content: space-around;
+    bottom: 151px;
+    left: 240px;
+}
+.paper-title{
+    color: white;
+    font-size: 14px;
+}
+.paper-select{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #656a70;
+}
+.num-input{
+    width: 100px;
+     height: 50px;
+       border: none;
+    outline: none;
+}
+.num{
+    width: 50px;
+    height: 50px;
+    margin-left: -6px;
+    background-color: white;
+    border: none;
+    outline: 1px solid #b0bcc2;
+    border-radius: 5px;
+}
+.num:nth-child(1){
+    margin-left: 0;
+   margin-right: -6px;
+}
+.continue-btn{
+        width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #0287c3;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.welcome-div{
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+    justify-content: space-between;
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.welcome-title{
+    font-size: 15px;
+    color: #0287c3;
+}
+.writing-service-title{
+    font-size: 35px;
+    font-weight: 400;
+    width: 530px;
+}
+.welcome-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #656a70;
+    width: 555px;
+}
+.advantages-section{
+    background-color: #03a9f4;
+   margin-top: 90px;
+}
+.our-advantages-title{
+    font-size: 15px;
+    color: white;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 57px;
+}
+.advantages-title{
+    font-size: 33px;
+       color: white;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 30px;
+}
+.advantages-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.advantages-item{
+    width: 350px;
+    height: 315px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.advantages-list-title{
+    width: 200px;
+   font-size: 17px;
+   font-weight: 700;
+   text-align: center;
+   padding-top: 25px;
+}
+.advantages-list-p{
+    width: 250px;
+    font-size: 14px;
+    color: #51555a;
+    text-align: center;
+    padding-top: 20px;
+}
+.advantages-btn{
+    width: 280px;
+    height: 50px;
+    background-color: #0287c3;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-left: 430px;
+}
